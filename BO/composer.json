@@ -1,0 +1,23 @@
+{
+    "name": "teissieryannis/bo",
+    "authors": [
+        {
+            "name": "Yannis",
+            "email": "contact@teissieryannis.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TeissierYannis\\Database\\BO\\": "Models",
+            "TeissierYannis\\Utils\\BO\\": "Models/Utils",
+            "TeissierYannis\\Views\\BO\\": "Views",
+            "TeissierYannis\\Stats\\BO\\": "Models/Stats",
+            "TeissierYannis\\Users\\BO\\": "Models/Users",
+            "TeissierYannis\\Headings\\BO\\": "Models/Headings",
+            "TeissierYannis\\Comments\\BO\\": "Models/Comments",
+            "TeissierYannis\\Newsletter\\BO\\": "Models/Newsletter",
+            "TeissierYannis\\Transactions\\BO\\": "Models/Transactions"
+        }
+    },
+    "require": {}
+}

@@ -1,0 +1,37 @@
+.divCorps {
+    padding: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: .2rem;
+	margin: 1rem -15px 0;
+    border: solid #f7f7f9;
+	text-align: center;
+}
+
+table.fixed { table-layout:fixed; width:850px; word-break:break-all;}
+table.fixed td {overflow:hidden;}/*Hide text outside the cell.*/
+table.fixed td:nth-of-type(1) {width:120px;}/*Setting the width of column 1.*/
+table.fixed td:nth-of-type(2) {width:730px;}/*Setting the width of column 2.*/
+
+table.fixed2 { table-layout:fixed; width:850px; word-break:break-all;}
+table.fixed2 td {overflow:hidden;}/*Hide text outside the cell.*/
+table.fixed2 td:nth-of-type(1) {width:120px;
+text-align:left;}/*Setting the width of column 1.*/
+table.fixed2 td:nth-of-type(2) {width:610;text-align:center;}/*Setting the width of column 2.*/
+table.fixed2 td:nth-of-type(3) {width:120px;
+text-align:right;}/*Setting the width of column 1.*/
+
+table.fixed3 { word-break:break-all;width:100%;}
+table.fixed3 td {overflow:hidden;}/*Hide text outside the cell.*/
+table.fixed3 td:nth-of-type(1) {width:17%;
+text-align:left;}/*Setting the width of column 1.*/
+table.fixed3 td:nth-of-type(2) {width:16%;}/*Setting the width of column 2.*/
+table.fixed3 td:nth-of-type(3) {width:17%;}/*Setting the width of column 2.*/
+table.fixed3 td:nth-of-type(4) {width:17%;}/*Setting the width of column 2.*/
+table.fixed3 td:nth-of-type(5) {width:16%;}/*Setting the width of column 2.*/
+table.fixed3 td:nth-of-type(6) {width:17px;
+text-align:right;}/*Setting the width of column 1.*/
+
+table.espace{
+	border-spacing: 2px;
+}

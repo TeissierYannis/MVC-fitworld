@@ -1,0 +1,23 @@
+{
+    "name": "teissieryannis/fo",
+    "authors": [
+        {
+            "name": "Yannis",
+            "email": "contact@teissieryannis.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TeissierYannis\\Database\\": "Models",
+            "TeissierYannis\\Views\\": "Views",
+            "TeissierYannis\\Utils\\": "Models",
+            "TeissierYannis\\Newsletter\\": "Models",
+            "TeissierYannis\\Comments\\": "Models",
+            "TeissierYannis\\Rubriques\\": "Models",
+            "TeissierYannis\\UsersActions\\": "Models"
+        }
+    },
+    "require": {
+      "ext-pdo": "*"
+    }
+}
