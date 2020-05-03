@@ -18,22 +18,22 @@ class Database
      * Database host
      * @var string
      */
-    private string $dbhost = "192.168.10.62";
+    private string $dbhost = "";
     /**
      * Database name
      * @var string
      */
-    private string $dbname = "mvc";
+    private string $dbname = "";
     /**
      * Database username
      * @var string
      */
-    private string $username = "distant";
+    private string $username = "";
     /**
      * Database password
      * @var string
      */
-    private string $password = "root";
+    private string $password = "";
 
     /**
      * Instance de la classe
