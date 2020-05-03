@@ -12,10 +12,10 @@ require '../public/PHPMailer/src/SMTP.php';
 class Mail{
 
 
-    private static string $host = "ssl0.ovh.net";
+    private static string $host = "";
     private static int $port = 587;
-    private static string $username = "fitworld@teissieryannis.com";
-    private static string $password = "RtQqE3k8BQ5p";
+    private static string $username = "";
+    private static string $password = "";
 
     /**
      * Mail constructor.
